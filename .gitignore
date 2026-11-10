@@ -1,0 +1,31 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.rsuser
+*.sln.docstates
+*.userprefs
+
+# Paquetes y publicación
+packages/
+publish/
+*.nupkg
+
+# Reportes y temporales
+*.log
+*.tmp
+TestResults/
+*.dbmdl
+
+# Bases de datos locales y respaldos
+*.mdf
+*.ldf
+*.bak
+*.db
+
+# Sistema
+Thumbs.db
+.DS_Store

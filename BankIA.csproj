@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>BankIA</RootNamespace>
+    <AssemblyName>BankIA</AssemblyName>
+    <ApplicationIcon />
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Driver moderno de SQL Server para .NET -->
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="QuestPDF" Version="2024.10.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Fuentes embebidas: Orbitron y Exo 2 -->
+    <EmbeddedResource Include="Resources\Fonts\*.ttf" />
+  </ItemGroup>
+</Project>
